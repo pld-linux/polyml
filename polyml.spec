@@ -14,7 +14,7 @@ Source2:	http://www.lfcs.informatics.ed.ac.uk/software/polyml/dbases/%{name}-%{v
 Source3:	http://www.lfcs.informatics.ed.ac.uk/software/polyml/dbases/%{name}-%{version}.sparc.tar.gz
 # Source3-md5:	8a9ebd594f8c13cd45184db7ec3687dd
 Patch0:		%{name}-opt.patch
-URL:		http://www.polyml.org
+URL:		http://www.polyml.org/
 BuildRequires:	lesstif-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ExclusiveArch:	%{ix86} ppc sparc sparc64
