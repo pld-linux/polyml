@@ -25,7 +25,6 @@ open-source. To wydanie wspiera wersjê ML97 jêsyka oraz Standard Basis
 Library (bibliotekê standardow±).
 
 %define		_dbver		%(echo %{version} | tr -d .)
-%define		_prefix		/usr/X11R6
 
 %prep
 %setup -q -c
