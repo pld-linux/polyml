@@ -1,7 +1,7 @@
 Summary:	Poly/ML compiler and runtime system
 Summary(pl):	Poly/ML kompilator i ¶rodowisko wykonania
 Name:		polyml
-Version:	4.1.2
+Version:	4.1.3
 Release:	1
 License:	Cambridge University Technical Services Limited
 Group:		Development/Languages
@@ -13,6 +13,7 @@ Patch0:		%{name}-opt.patch
 URL:		http://www.polyml.org
 BuildRequires:	lesstif-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+ExclusiveArch:	%{ix86} ppc sparc sparc64
 
 %description
 Poly/ML is a full implementation of Standard ML available as
