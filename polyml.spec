@@ -1,5 +1,5 @@
 Summary:	Poly/ML compiler and runtime system
-Summary:	Poly/ML kompilator i ¶rodowisko wykonania
+Summary(pl):	Poly/ML kompilator i ¶rodowisko wykonania
 Name:		polyml
 Version:	4.1.2
 Release:	1
@@ -20,9 +20,9 @@ open-source. This release supports the ML97 version of the language
 and the Standard Basis Library.
 
 %description
-Poly/ML jest pe³n± implementacj± Standard ML dostêpn± jako open-source.
-To wydanie wspiera wersjê ML97 jêsyka oraz Standard Basis Library (bibliotekê
-standardow±).
+Poly/ML jest pe³n± implementacj± Standard ML dostêpn± jako
+open-source. To wydanie wspiera wersjê ML97 jêsyka oraz Standard Basis
+Library (bibliotekê standardow±).
 
 %define		_dbver		%(echo %{version} | tr -d .)
 %define		_prefix		/usr/X11R6
