@@ -24,10 +24,10 @@ Poly/ML is a full implementation of Standard ML available as
 open-source. This release supports the ML97 version of the language
 and the Standard Basis Library.
 
-%description
+%description -l pl
 Poly/ML jest pe³n± implementacj± Standard ML dostêpn± jako
-open-source. To wydanie wspiera wersjê ML97 jêsyka oraz Standard Basis
-Library (bibliotekê standardow±).
+open-source. To wydanie wspiera wersjê ML97 jêzyka oraz bibliotekê
+standardow± (Standard Basis Library).
 
 %define		_dbver		%(echo %{version} | tr -d .)
 
