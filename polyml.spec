@@ -6,9 +6,13 @@ Release:	1
 License:	Cambridge University Technical Services Limited
 Group:		Development/Languages
 Source0:	http://www.lfcs.informatics.ed.ac.uk/software/polyml/source/%{name}-driver-%{version}.tar.gz
+# Source0-md5:	814cea1cfb376d4bb3977f78bad3d5eb
 Source1:	http://www.lfcs.informatics.ed.ac.uk/software/polyml/dbases/%{name}-%{version}.i386.tar.gz
+# Source1-md5:	4309deffef425ef2052a2bfd37539f31
 Source2:	http://www.lfcs.informatics.ed.ac.uk/software/polyml/dbases/%{name}-%{version}.ppc.tar.gz
+# Source2-md5:	7f9f0911ce15a146cc002ac55efc34c2
 Source3:	http://www.lfcs.informatics.ed.ac.uk/software/polyml/dbases/%{name}-%{version}.sparc.tar.gz
+# Source3-md5:	8a9ebd594f8c13cd45184db7ec3687dd
 Patch0:		%{name}-opt.patch
 URL:		http://www.polyml.org
 BuildRequires:	lesstif-devel
