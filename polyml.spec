@@ -1,5 +1,5 @@
 Summary:	Poly/ML compiler and runtime system
-Summary(pl.UTF-8):   Poly/ML kompilator i środowisko wykonania
+Summary(pl.UTF-8):	Poly/ML kompilator i środowisko wykonania
 Name:		polyml
 Version:	4.1.3
 Release:	1
